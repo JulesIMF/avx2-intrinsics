@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\</FILEPATH>
+      <FILENAME>Intrinsic_1.cpp</FILENAME>
+      <LINE>111</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6258</DEFECTCODE>
+    <DESCRIPTION>Использование TerminateThread не позволит выполнить правильную очистку потока.</DESCRIPTION>
+    <FUNCTION>wWinMain</FUNCTION>
+    <DECORATED>wWinMain</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\</FILEPATH>
+      <FILENAME>Intrinsic_1.cpp</FILENAME>
+      <LINE>350</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>Redraw</FUNCTION>
+    <DECORATED>?Redraw@@YAXURedrawParams@@@Z</DECORATED>
+    <FUNCLINE>296</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\</FILEPATH>
+      <FILENAME>Intrinsic_1.cpp</FILENAME>
+      <LINE>419</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "*" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "*", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>Calculate</FUNCTION>
+    <DECORATED>?Calculate@@YAX_N00MMM@Z</DECORATED>
+    <FUNCLINE>366</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

@@ -1,0 +1,539 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/WinAPI_lib.h"
+                },
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 29,
+                  "endLine": 59,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?SetPixel@Videomemory@@SA?AW4VMresult@@IIUtagRGBQUAD@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "Тип перечисления \"VMresult\" не входит в область. Старайтесь использовать \"enum class\" вместо \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/WinAPI_lib.h"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 13,
+                  "endLine": 57,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?SetPixel@Videomemory@@SA?AW4VMresult@@IIUtagRGBQUAD@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/WinAPI_lib.h"
+                },
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 31,
+                  "endLine": 71,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?Initialize@Videomemory@@SA?AW4VMresult@@II@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C28251",
+          "message": {
+            "text": "Несогласованная аннотация для \"wWinMain\": данный экземпляр содержит нет аннотаций. См. c:\\program files (x86)\\windows kits\\10\\include\\10.0.18362.0\\um\\winbase.h(946). "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                },
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 14,
+                  "endLine": 92,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "wWinMain",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6258",
+          "message": {
+            "text": "Использование TerminateThread не позволит выполнить правильную очистку потока."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                },
+                "region": {
+                  "startLine": 141,
+                  "startColumn": 5,
+                  "endLine": 141,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "wWinMain",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C28159",
+          "message": {
+            "text": "Попробуйте использовать \"GetTickCount64\" вместо \"GetTickCount\". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                },
+                "region": {
+                  "startLine": 303,
+                  "startColumn": 25,
+                  "endLine": 303,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?Redraw@@YAXPEAUHWND__@@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "\"_Param_(2)\" может быть равен \"0\":  это не соответствует спецификации функции \"EndPaint\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                },
+                "region": {
+                  "startLine": 318,
+                  "startColumn": 5,
+                  "endLine": 318,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?Redraw@@YAXPEAUHWND__@@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                          },
+                          "region": {
+                            "startLine": 288,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                          },
+                          "region": {
+                            "startLine": 289,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                          },
+                          "region": {
+                            "startLine": 290,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                          },
+                          "region": {
+                            "startLine": 292,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                          },
+                          "region": {
+                            "startLine": 298,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                          },
+                          "region": {
+                            "startLine": 303,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                          },
+                          "region": {
+                            "startLine": 305,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                          },
+                          "region": {
+                            "startLine": 306,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                          },
+                          "region": {
+                            "startLine": 307,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                          },
+                          "region": {
+                            "startLine": 309,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                          },
+                          "region": {
+                            "startLine": 312,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                          },
+                          "region": {
+                            "startLine": 313,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                          },
+                          "region": {
+                            "startLine": 314,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                          },
+                          "region": {
+                            "startLine": 315,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                          },
+                          "region": {
+                            "startLine": 316,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                          },
+                          "region": {
+                            "startLine": 318,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+                },
+                "region": {
+                  "startLine": 360,
+                  "startColumn": 57,
+                  "endLine": 360,
+                  "endColumn": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?DoRoutine@Calculate@@SAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29912.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00DAB1C0 -il C:\\Users\\inter\\AppData\\Local\\Temp\\_CL_3ff6e703ast -typedil -f Intrinsic_1.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829912 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_WINDOWS -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -std:c++17 -Fox64\\Debug\\Intrinsic_1.obj -Fdx64\\Debug\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\inter\\source\\repos\\Intrinsic_1\\Intrinsic_1 -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/WinAPI_lib.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "e4f80b9501c8875508919b9128d6c995"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/inter/source/repos/Intrinsic_1/Intrinsic_1/Intrinsic_1.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "c0d8712f700c8bee551a2c2088213a16"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/inter/source/repos/intrinsic_1/intrinsic_1/framework.h"
+          },
+          "hashes": {
+            "md5": "d04143752801c1bfb2773cd94fda691b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/inter/source/repos/intrinsic_1/intrinsic_1/targetver.h"
+          },
+          "hashes": {
+            "md5": "5c0c07638d0072ce23e6597fbc262fba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/inter/source/repos/intrinsic_1/intrinsic_1/intrinsic_1.h"
+          },
+          "hashes": {
+            "md5": "429e8ad314036b94bc7023fded611b5c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/inter/source/repos/intrinsic_1/intrinsic_1/resource.h"
+          },
+          "hashes": {
+            "md5": "f379ee4b2d66691b0abc0b0afe0fa9d2"
+          }
+        }
+      ]
+    }
+  ]
+}

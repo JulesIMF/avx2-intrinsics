@@ -1,0 +1,18 @@
+﻿extensions: .cs .cpp .c .h .hpp
+/*
+Copyright (c) %CurrentYear%  MIPT
+
+Module Name:
+    %FileName%
+
+Abstract:    
+    
+Author:
+    JulesIMF
+
+Last Edit:
+    %CurrentDay%.%CurrentMonth%.%CurrentYear% %CurrentTime%
+
+Edit Notes:
+    
+*/

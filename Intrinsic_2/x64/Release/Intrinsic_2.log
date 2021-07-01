@@ -1,0 +1,14 @@
+﻿  Intrinsic_2.cpp
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Intrinsic_2.cpp(548,113): warning C4838: Преобразование из "int" в "BYTE" требует сужающего преобразования.
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Intrinsic_2.cpp(549,113): warning C4838: Преобразование из "int" в "BYTE" требует сужающего преобразования.
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Intrinsic_2.cpp(550,113): warning C4838: Преобразование из "int" в "BYTE" требует сужающего преобразования.
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Intrinsic_2.cpp(577,115): warning C4838: Преобразование из "int" в "BYTE" требует сужающего преобразования.
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Intrinsic_2.cpp(578,115): warning C4838: Преобразование из "int" в "BYTE" требует сужающего преобразования.
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Intrinsic_2.cpp(579,115): warning C4838: Преобразование из "int" в "BYTE" требует сужающего преобразования.
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Intrinsic_2.cpp(563,11): warning C4102: notAvx: неиспользованная метка
+  Создание кода
+  1 of 12 functions ( 8.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Intrinsic_2.vcxproj -> C:\Users\inter\source\repos\Intrinsic_1\x64\Release\Intrinsic_2.exe

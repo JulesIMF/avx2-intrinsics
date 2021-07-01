@@ -1,0 +1,2 @@
+C:\Users\inter\source\repos\Intrinsic_1\x64\Debug\Intrinsic_1.exe.lastcodeanalysissucceeded
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\x64\Debug\NativeCodeAnalysis.read.1.tlog

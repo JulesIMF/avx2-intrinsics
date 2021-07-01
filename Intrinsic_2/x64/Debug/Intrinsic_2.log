@@ -1,0 +1,14 @@
+﻿  Source.cpp
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Source.cpp(259,21): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Source.cpp(260,20): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Source.cpp(261,21): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Source.cpp(262,20): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Source.cpp(263,26): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Source.cpp(468,113): warning C4838: Преобразование из "int" в "BYTE" требует сужающего преобразования.
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Source.cpp(469,113): warning C4838: Преобразование из "int" в "BYTE" требует сужающего преобразования.
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Source.cpp(470,113): warning C4838: Преобразование из "int" в "BYTE" требует сужающего преобразования.
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Source.cpp(497,115): warning C4838: Преобразование из "int" в "BYTE" требует сужающего преобразования.
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Source.cpp(498,115): warning C4838: Преобразование из "int" в "BYTE" требует сужающего преобразования.
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Source.cpp(499,115): warning C4838: Преобразование из "int" в "BYTE" требует сужающего преобразования.
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_2\Source.cpp(483,11): warning C4102: notAvx: неиспользованная метка
+  Intrinsic_2.vcxproj -> C:\Users\inter\source\repos\Intrinsic_1\x64\Debug\Intrinsic_2.exe

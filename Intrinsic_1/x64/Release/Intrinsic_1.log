@@ -1,0 +1,20 @@
+﻿  Intrinsic_1.cpp
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(218,36): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(219,35): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(220,36): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(221,35): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(222,38): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(470,88): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(469,88): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(468,88): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(467,88): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(466,88): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(465,88): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(464,88): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(473,55): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  Создание кода
+  3 of 10 functions (30.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Intrinsic_1.vcxproj -> C:\Users\inter\source\repos\Intrinsic_1\x64\Release\Intrinsic_1.exe

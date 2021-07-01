@@ -1,0 +1,23 @@
+﻿  Intrinsic_1.cpp
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(172,28): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(173,27): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(174,28): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(175,27): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(176,30): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(385,88): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(384,88): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(383,88): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(382,88): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(381,88): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(380,88): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(379,88): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(388,48): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  Intrinsic_1.vcxproj -> C:\Users\inter\source\repos\Intrinsic_1\x64\Debug\Intrinsic_1.exe
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\WinAPI_lib.h(59): warning C26451: Арифметическое переполнение: использование оператора "*" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "*", чтобы избежать переполнения (io.2).
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\WinAPI_lib.h(57): warning C26812: Тип перечисления "VMresult" не входит в область. Старайтесь использовать "enum class" вместо "enum" (Enum.3).
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\WinAPI_lib.h(71): warning C26451: Арифметическое переполнение: использование оператора "*" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "*", чтобы избежать переполнения (io.2).
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(92): warning C28251: Несогласованная аннотация для "wWinMain": данный экземпляр содержит нет аннотаций. См. c:\program files (x86)\windows kits\10\include\10.0.18362.0\um\winbase.h(946). 
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(141): warning C6258: Использование TerminateThread не позволит выполнить правильную очистку потока.
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(303): warning C28159: Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(318): warning C6387: "_Param_(2)" может быть равен "0":  это не соответствует спецификации функции "EndPaint". 
+C:\Users\inter\source\repos\Intrinsic_1\Intrinsic_1\Intrinsic_1.cpp(360): warning C26451: Арифметическое переполнение: использование оператора "*" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "*", чтобы избежать переполнения (io.2).
